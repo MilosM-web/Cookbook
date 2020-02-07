@@ -1,0 +1,64 @@
+.home-wrap {
+	width: 80%;
+	margin: auto; 
+	height: calc(100vh - 100px);
+	padding-top: 40px;
+
+	@media @600 {
+		width: calc(100% - 40px);
+		padding: 30px 20px 20px 20px;
+	}
+
+	h2 {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+
+	.hr-line {
+		width: 100%;
+		margin: auto;
+		height: 1px;
+		background-color: #000;
+		opacity: 0.3;
+	}
+	.recipes-wrap {
+		display: flex;
+		width: 100%;
+		margin: auto;
+
+		a {
+			text-decoration: none;
+			cursor: pointer;
+			font-size: 18px;
+			padding: 10px 0px;
+			color: #343f50;
+		}
+
+
+
+		@media @600 {
+		    max-width: 100%;
+		}
+
+		.title {
+			width: 80%;
+			align-self: center;
+		}
+		.image-wrap {
+			width: 20%;
+
+			.image {
+                width: 50px;
+                height: 50px;
+				// position: absolute;
+				// top: 50%;
+				// left: 50%;
+				// transform: translate(-50%, -50%);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+		}
+	}
+	
+}
