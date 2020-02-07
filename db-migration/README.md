@@ -1,2 +1,2 @@
 
-Use all in one WP Migration plugin to import DB.
+Use All in one WP Migration plugin to import DB.
